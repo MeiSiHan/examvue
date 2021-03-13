@@ -1,0 +1,65 @@
+/*公用样式*/
+/*设置版心：
+ 版心作用：
+ 
+ 1.设置固定宽度（根据效果图来）
+ 2.实现水平居中效果
+
+ 要求：
+ 	版心作为公用样式，所有层级选择器跳过版心
+ 	
+ 	
+ * */
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+
+
+/*设置浮动*/
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+
+/*清除浮动*/
+.clear{
+	clear: both;
+}
+
+
+/*主要用于列表清浮动*/
+.clearfix:after{
+	height:0;
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*字体颜色*/
+#header ul{
+	color: #666666;
+	font-size: 16px;
+}
+#banner p:first-child{
+
+	font-size: 20px;
+}
+
+/*每个div的外边距*/
+.main{
+	width: 858px;
+
+	border: 1px;direction: red;
+	margin-left: 40px;
+	margin-top: 16px;
+}
+/*内容的标题文字*/
+.main .content .strong{
+	font-size: 20px;
+	font-weight: 900;
+	padding-top: 16px;
+}
+
